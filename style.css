@@ -1,3 +1,277 @@
-@media screen and  (min-width:568px) {
-    
+/*Style for smallest viewport, 500px*/
+body {
+ background-color: rgb(255, 255, 255);   
 }
+
+.navbar {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+.container1 {
+    width: 500px;
+
+}
+
+.main_content {
+    display: none;
+}
+
+.single_image {
+    width: 500px;
+    margin: 0;
+}
+
+.desktop_images {
+    display: none;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+}
+
+p {
+    display: none;
+}
+
+.container2 {
+    background-color: aquamarine;
+    height: 100px;
+    margin: 0;
+    margin: auto;
+
+}
+
+.container2 h2 {
+ padding-top: 30px;  
+ margin: 0; 
+}
+
+.container3 {
+    background-color: rgb(118, 217, 235);
+    height: 100px;
+    margin: 0;
+}
+
+.container3 h2 {
+ padding-top: 30px;   
+ margin: 0;
+}
+
+.container4 {
+    background-color: rgb(52, 191, 233);
+    height: 100px;
+    margin: 0;
+}
+
+.container4 h2 {
+ padding-top: 30px;  
+ margin: 0; 
+}
+
+.login {
+    float: right;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.container3 .left_column {
+    display: none;
+}
+
+.container3 .right_column {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+/*Style for medium viewport, 800px*/
+@media  screen and (min-width:800px) {
+   .container1 {
+    width: 800px;
+   }
+.login {
+    display: none;
+}
+
+.navbar {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar a {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+   .single_image {
+    width: 800px;
+   }
+    .container2 {
+        height: 160px;
+        margin: 0%;
+    }
+    .container2 p {
+        display: block;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+    }
+ 
+    .container3 {
+        height: 160px;
+        margin: 0%;
+    }
+    .container3 p {
+        display: block;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .container4 {
+        height: 160px;
+        margin: 0%;
+    }
+    .container4 p {
+        display: block;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .container3 .left_column {
+        display: block;
+        margin-top: 0;
+        float: left;
+        padding-left: 100px;
+    }
+
+    .container3 .right_column {
+        display: block;
+        margin-top: 0;
+        float: right;
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Style for largest viewport, 1024 */
+@media screen and (min-width:1024px) {
+
+    body {
+        background-repeat: no-repeat;
+        background-image: url("background.jpg");
+        background-size: cover;
+        
+    }
+
+    .navbar {
+        background-color: aquamarine;
+    }
+    .container1 {
+        margin-left: 25%;
+        background-color: rgb(226, 226, 226);
+        margin-top: 50px;
+        min-width: 1024px;    
+    }
+
+    h1 {
+        margin-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: white;
+    }
+
+    .single_image {
+        display: none;
+    }
+    .desktop_images {
+        display: inline;
+        margin-left: 15px;
+    }
+
+    .desktop_images img {
+        width: 24%;
+        padding: 0;
+        margin: 0;
+        height: 163px ;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        display:inline;
+        padding: 15px;
+        
+    }
+    .main_content {
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .container2 {
+        margin-top: 0;
+        float: left;
+        background-color: rgb(226, 226, 226);
+        width: 1024px;
+    }
+
+    .container2 p {
+        margin-top: 0;
+        background-color: rgb(226, 226, 226);
+        text-align: center;
+    }
+
+    .container3 {
+        float: left;
+        background-color: rgb(226, 226, 226);
+        width: 1024px;
+    }
+
+    .container3 .left_column {
+        display: block;
+        margin-top: 0;
+        background-color: rgb(226, 226, 226);
+        float: left;
+        padding-left: 100px;
+    }
+
+    .container3 .right_column {
+        display: block;
+        margin-top: 0;
+        background-color: rgb(226, 226, 226);
+        float: right;
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+
+    .container4 {
+        float: left;
+        background-color: rgb(226, 226, 226);
+        width: 1024px;
+    }
+
+    .container4 p {
+        margin-top: 0;
+        background-color: rgb(226, 226, 226);
+        text-align: center;
+    }
+}
+
+
